@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Munqesa" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="colorPrimary">@color/royal_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/brand_red_container</item>
+        <item name="colorOnPrimaryContainer">@color/brand_red_on_container</item>
+        <item name="colorSecondary">@color/turquoise</item>
+        <item name="colorOnSecondary">@color/deep_navy</item>
+        <item name="colorSecondaryContainer">@color/teal_tint</item>
+        <item name="colorOnSecondaryContainer">@color/deep_navy</item>
+        <item name="colorSurface">@color/surface_raised</item>
+        <item name="colorOnSurface">@color/primary_text</item>
+        <item name="colorSurfaceVariant">@color/surface_raised</item>
+        <item name="colorOnSurfaceVariant">@color/secondary_text</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Munqesa.Activity</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Munqesa.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Munqesa.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Munqesa.Large</item>
+    </style>
+
+    <style name="Animation.Munqesa.Activity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/ios_activity_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/ios_activity_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/ios_activity_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/ios_activity_close_exit</item>
+    </style>
+
+    <style name="ShapeAppearance.Munqesa.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+    <style name="ShapeAppearance.Munqesa.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">18dp</item>
+    </style>
+    <style name="ShapeAppearance.Munqesa.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="ShapeAppearance.Munqesa.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

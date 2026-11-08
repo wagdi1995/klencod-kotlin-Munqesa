@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <!-- Premium Neumorphism Light palette -->
+    <color name="background">#E9EDF3</color>
+    <color name="surface_raised">#EDF1F6</color>
+    <color name="neu_highlight">#FFFFFF</color>
+    <color name="neu_shadow_dark">#C8D0DB</color>
+    <color name="neu_shadow_light">#FFFFFF</color>
+    <color name="royal_blue">#3157A4</color>
+    <color name="deep_navy">#243B64</color>
+    <color name="soft_blue">#5B83CF</color>
+    <color name="turquoise">#19B9B5</color>
+    <color name="light_cyan">#55C9D5</color>
+    <color name="luxury_purple">#8A73D6</color>
+    <color name="success_green">#2DAA78</color>
+    <color name="warning_amber">#E8A23B</color>
+    <color name="error_red">#D85B68</color>
+    <color name="primary_text">#26354A</color>
+    <color name="secondary_text">#718096</color>
+    <color name="muted_text">#9AA6B5</color>
+    <color name="brand_red">#3157A4</color>
+    <color name="brand_teal">#19B9B5</color>
+    <color name="ink">#26354A</color>
+    <color name="ink_variant">#718096</color>
+    <color name="outline">#C8D0DB</color>
+    <color name="outline_variant">#D7DEE8</color>
+    <color name="glass_blue">#EDF1F6</color>
+    <color name="navy_deep">#243B64</color>
+    <color name="deep_blue">#3157A4</color>
+    <color name="soft_cyan">#19B9B5</color>
+    <color name="electric_blue">#3157A4</color>
+    <color name="brand_red_container">#EEF2F9</color>
+    <color name="brand_red_on_container">#243B64</color>
+    <color name="red_tint">#EEF2F9</color>
+    <color name="teal_tint">#EEF6F6</color>
+</resources>

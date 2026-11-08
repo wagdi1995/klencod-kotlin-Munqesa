@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:autoMirrored="false">
+    <!-- Modern receipt/invoice icon -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M18,2H6C4.9,2 4,2.9 4,4V19C4,20.1 4.9,21 6,21H18C19.1,21 20,20.1 20,19V4C20,2.9 19.1,2 18,2ZM18,19H6V4H18V19Z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M8,6H16V8H8V6ZM8,10H16V12H8V10ZM8,14H12V16H8V14Z" />
+</vector>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">المناقصات</string>
+    <string name="company_name">الشركة الدوائية الحديثة</string>
+
+    <string name="nav_products">الأصناف</string>
+    <string name="nav_invoices">الفواتير</string>
+    <string name="nav_reports">التقارير</string>
+
+    <!-- Products -->
+    <string name="products_search_hint">ابحث عن صنف</string>
+    <string name="products_import_excel">استيراد من Excel</string>
+    <string name="products_add_manual">إضافة صنف</string>
+    <string name="products_edit_title">تعديل الصنف</string>
+    <string name="products_delete_all">حذف الكل</string>
+    <string name="products_empty">لا توجد أصناف</string>
+    <string name="products_empty_hint">أضف صنفًا أو استورد قائمة أصناف من ملف Excel</string>
+    <string name="products_count">عدد الأصناف: %1$s</string>
+    <string name="products_save">حفظ</string>
+    <string name="products_cancel">إلغاء</string>
+    <string name="product_name_hint">اسم الصنف</string>
+    <string name="product_price_hint">السعر بالدولار</string>
+    <string name="error_name_required">أدخل اسم الصنف</string>
+    <string name="error_price_invalid">أدخل سعرًا صحيحًا</string>
+    <string name="import_success_count">تم استيراد %1$s صنف</string>
+    <string name="import_failed">فشل استيراد الملف</string>
+    <string name="import_empty">لم أجد أصنافًا في الملف. العمود الأول للاسم والثاني للسعر</string>
+    <string name="product_added">تمت إضافة الصنف</string>
+    <string name="product_updated">تم تعديل الصنف</string>
+    <string name="product_deleted">تم حذف الصنف</string>
+    <string name="products_deleted_all">تم حذف جميع الأصناف</string>
+    <string name="confirm_delete_all">حذف جميع الأصناف؟</string>
+    <string name="confirm_delete_all_msg">لا يمكن التراجع عن هذا الإجراء</string>
+    <string name="confirm_delete_product">حذف هذا الصنف؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+
+    <!-- Invoices -->
+    <string name="invoices_empty">لا توجد فواتير</string>
+    <string name="invoices_empty_hint">أنشئ أول فاتورة مناقصة من الزر بالأسفل</string>
+    <string name="invoice_new">فاتورة جديدة</string>
+    <string name="invoice_new_title">فاتورة مناقصة جديدة</string>
+    <string name="invoice_customer_hint">اسم العميل</string>
+    <string name="invoice_select_product">اختر الصنف</string>
+    <string name="invoice_quantity_hint">الكمية</string>
+    <string name="invoice_add_product">إضافة</string>
+    <string name="invoice_unit_price_fmt">سعر الوحدة: %1$s</string>
+    <string name="invoice_total">الإجمالي</string>
+    <string name="invoice_save">حفظ الفاتورة</string>
+    <string name="invoice_empty_items">أضف صنفًا واحدًا على الأقل</string>
+    <string name="invoice_items_empty_hint">لم تتم إضافة أصناف بعد</string>
+    <string name="invoice_saved">تم حفظ الفاتورة</string>
+    <string name="invoice_deleted">تم حذف الفاتورة</string>
+    <string name="invoice_confirm_delete">حذف هذه الفاتورة؟</string>
+    <string name="invoice_select_product_hint">اختر صنفًا من القائمة</string>
+    <string name="invoice_quantity_error">أدخل كمية صحيحة</string>
+    <string name="invoice_customer_error">أدخل اسم العميل</string>
+    <string name="invoice_subtitle">فاتورة #%1$s · %2$s بند</string>
+    <string name="invoice_label">فاتورة #%1$s · %2$s · %3$s</string>
+    <string name="item_line_fmt">%1$s × %2$s</string>
+
+    <!-- Reports -->
+    <string name="reports_empty">لا توجد تقارير</string>
+    <string name="reports_empty_hint">أنشئ تقريرًا من إحدى الفواتير المحفوظة</string>
+    <string name="reports_new">تقرير جديد</string>
+    <string name="reports_select_invoice">اختر الفاتورة</string>
+    <string name="reports_header_hint">ترويسة التقرير (اختياري)</string>
+    <string name="reports_save">حفظ التقرير</string>
+    <string name="reports_saved">تم حفظ التقرير</string>
+    <string name="reports_deleted">تم حذف التقرير</string>
+    <string name="reports_confirm_delete">حذف هذا التقرير؟</string>
+    <string name="reports_no_invoices">لا توجد فواتير محفوظة. أنشئ فاتورة أولًا</string>
+    <string name="reports_select_error">اختر فاتورة</string>
+    <string name="report_default_title">تقرير فاتورة #%1$s</string>
+
+    <!-- Common -->
+    <string name="share">مشاركة</string>
+    <string name="close">إغلاق</string>
+    <string name="delete">حذف</string>
+    <string name="total_label">الإجمالي: %1$s</string>
+    <string name="file_not_found">الملف غير موجود</string>
+    <string name="excel_format_error">صيغة الملف غير مدعومة. استخدم xlsx أو csv</string>
+    <string name="cd_edit">تعديل</string>
+    <string name="cd_delete">حذف</string>
+    <string name="cd_back">رجوع</string>
+    <string name="invoice_edit_title">تعديل عرض السعر</string>
+    <string name="invoice_updated">تم تحديث عرض السعر</string>
+    <string name="share_failed">فشل في مشاركة الملف</string>
+    <string name="preview_failed">تعذر إنشاء المعاينة</string>
+</resources>
